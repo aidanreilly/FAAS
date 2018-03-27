@@ -1,0 +1,7 @@
+{
+  "name": "calculate-fibonacci",
+  "version": "1.0.0",
+  "description": "Calculates fibonacci to 300 positions",
+  "author": "",
+  "license": "MIT"
+}
