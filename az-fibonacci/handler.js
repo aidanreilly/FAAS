@@ -1,14 +1,28 @@
 'use strict';
 
-/* eslint-disable no-param-reassign */
+module.exports.endpoint = (event, context, callback) => {
+  const fibo = fib()
+  for (let i=0; i<50; i++){
+    console.log(fibo())
+  } 
+  const result = {
+    "isBase64Encoded": false,
+    "statusCode": 200,
+    "headers": {},
+    "body": "done"
+  }
 
-module.exports.hello = function (context) {
-  context.log('JavaScript HTTP trigger function processed a request.');
+  function fib() {
+  let x = 0
+  let y = 1
+  return function () {    
+    const temp = x;
+    x = x + y;
+    y = temp;
+    return y
+  }
+}
 
-  context.res = {
-    // status: 200, /* Defaults to 200 */
-    body: 'Go Serverless v1.x! Your function executed successfully!',
-  };
-
-  context.done();
+  callback(null, result);
 };
+

@@ -34,16 +34,12 @@ plugins:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
+  calculateFibonacci:
+    handler: handler.endpoint
     events:
-      - http: true
-        x-azure-settings:
-          authLevel : anonymous
-      - http: true
-        x-azure-settings:
-          direction: out
-          name: res
+      - http:
+          path: ping
+          method: get
 
 # The following are a few examples of other events you can configure:
 #

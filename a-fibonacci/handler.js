@@ -2,7 +2,7 @@
 
 module.exports.endpoint = (event, context, callback) => {
   const fibo = fib()
-  for (let i=0; i<1500; i++){
+  for (let i=0; i<50; i++){
     console.log(fibo())
   } 
   const result = {
