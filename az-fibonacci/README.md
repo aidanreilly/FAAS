@@ -52,3 +52,8 @@ serverless remove
 If you have any issues, comments or want to see new features, please file an issue in the project repository:
 
 https://github.com/serverless/serverless-azure-functions
+
+###testing
+https://<Your Function App>.azurewebsites.net/api/<Your Function Name>?code=<your access code>
+
+https://az-fibonacci.azurewebsites.net/api/hello?code=398866
