@@ -54,30 +54,7 @@ If you have any issues, comments or want to see new features, please file an iss
 https://github.com/serverless/serverless-azure-functions
 
 ###testing
-https://az-fibonacci.azurewebsites.net/api/calculateFibonacci?code=D8DUZDR6S
 
-https://<Your Function App>.azurewebsites.net/api/<Your Function Name>?code=<your access code>
-
-https://az-fibonacci.azurewebsites.net/api/hello?code=398866
-
-
-https://management.core.windows.net/<subscription-id>/services/storageservices/<service-name>/keys?action=regenerate
-
-
-[
-  {
-    "cloudName": "AzureCloud",
-    "id": "b4ef5f79-1d19-4a1a-9052-3defbfb29a8c",
-    "isDefault": true,
-    "name": "Free Trial",
-    "state": "Enabled",
-    "tenantId": "7ec82328-30e6-4d7b-bf9c-8a51965a4fc4",
-    "user": {
-      "name": "aidan.reilly@mycit.ie",
-      "type": "user"
-    }
-  }
-]
-
+https://cfibonacci.azurewebsites.net/api/calcFibonacci
 
 https://az-fibonacci.scm.azurewebsites.net/DebugConsole
