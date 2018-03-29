@@ -2,13 +2,29 @@
 
 /* eslint-disable no-param-reassign */
 
-module.exports.calcFibonacci = function (context) {
-  context.log('JavaScript HTTP trigger function processed a request.');
+module.exports.calcFibonacci = function (event, context, callback) {
+  const fibo = fib()
+  for (let i=0; i<50; i++){
+    console.log(fibo())
+  } 
+  const result = {
+    "isBase64Encoded": false,
+    "statusCode": 200,
+    "headers": {},
+    "body": "done"
+  }
 
-  context.res = {
-    // status: 200, /* Defaults to 200 */
-    body: 'Argh',
-  };
+  function fib() {
+    let x = 0
+    let y = 1
+    return function () {    
+      const temp = x;
+      x = x + y;
+      y = temp;
+      return y
+    }
+  }
 
-  context.done();
+  callback(null, result);
+
 };
