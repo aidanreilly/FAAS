@@ -2,7 +2,7 @@
 
 /* eslint-disable no-param-reassign */
 
-module.exports.calcFibonacci = function (event, context, callback) {
+module.exports.endpoint = function (event, context, callback) {
   const fibo = fib()
   for (let i=0; i<50; i++){
     console.log(fibo())
