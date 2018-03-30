@@ -29,7 +29,7 @@ module.exports.cFibonacci = function (context) {
 
   context.res = {
     // status: 200, /* Defaults to 200 */
-    body: 'Calculated Fibonacci to 50 places, last value is '(result),
+    body: 'Calculated Fibonacci to 50 places',
   };
 
   context.done();

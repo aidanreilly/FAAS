@@ -57,4 +57,6 @@ https://github.com/serverless/serverless-azure-functions
 
 https://cfibonacci.azurewebsites.net/api/calcFibonacci
 
+invoke local --function calcFibonacci
+
 https://az-fibonacci.scm.azurewebsites.net/DebugConsole
