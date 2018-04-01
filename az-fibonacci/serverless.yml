@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: cFibonacci
+service: calFibonacci
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -19,7 +19,7 @@ service: cFibonacci
 
 provider:
   name: azure
-  location: West US
+  location: North Europe
 
 plugins:
   - serverless-azure-functions

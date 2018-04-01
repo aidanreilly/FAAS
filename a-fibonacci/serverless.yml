@@ -6,6 +6,8 @@ provider:
   name: aws
   runtime: nodejs4.3
 
+# following may not work, try from cmd: serverless deploy --region eu-west-1
+
 functions:
   calculateFibonacci:
     handler: handler.endpoint

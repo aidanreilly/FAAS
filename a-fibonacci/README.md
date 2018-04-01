@@ -4,7 +4,7 @@ layout: Doc
 
 ## Function load test
 
-- Calculates fibonacci to 1500 places
+- Calculates fibonacci to 150 places
 
 ## Invoke the function locally
 
@@ -32,6 +32,7 @@ or as send an HTTP request directly to the endpoint using a tool like curl
 
 ```bash
 curl https://61y5mcy9j7.execute-api.us-east-1.amazonaws.com/dev/ping
+
 
 ```
 Needs curl and abs obvs
