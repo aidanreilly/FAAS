@@ -1,6 +1,12 @@
 ### Load testing identical functions on AWS, Google Cloud, and Azure
 
-All functions are hosted out of US East data centers.
+All functions are hosted out of US East or US central data centers. Function locations:
+
+* AWS: us-east-1
+* Google-Cloud: us-central1 
+* Azure: East US
+
+*Note*: Google cloud is (at time of testing) only available in the central-US region. Azure and AWS functions are hosted in similar US locations to ensure comparable latency.   
 
 Each service can be deployed with serverless: 
 
@@ -37,8 +43,6 @@ serverless remove
 * AWS: https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
 * Azure: https://calfibonacci.azurewebsites.net/api/calcFibonacci
     - https://calfibonacci.azurewebsites.net/api/DebugConsole
-
-*Note*: Google cloud is (at time of testing) only available in the central-US region. Azure and AWS functions are hosted in similar US locations to make sure latency is comparable.  
 
 Test using curl and abs: 
 
