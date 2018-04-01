@@ -2,7 +2,7 @@
 
 /* eslint-disable no-param-reassign */
 
-module.exports.cFibonacci = function (context) {
+module.exports.calFib = function (context) {
 
   const fibo = fib()
   for (let i=0; i<150; i++){

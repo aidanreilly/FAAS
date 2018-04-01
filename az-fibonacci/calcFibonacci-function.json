@@ -13,6 +13,6 @@
             "name": "res"
         }
     ],
-    "entryPoint": "cFibonacci",
+    "entryPoint": "calFib",
     "scriptFile": "handler.js"
 }

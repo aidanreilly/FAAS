@@ -1,6 +1,6 @@
 ### Load testing identical functions on AWS, Google Cloud, and Azure
 
-All functions are hosted out of EU-West (Ireland) data centers.
+All functions are hosted out of US East data centers.
 
 Each service can be deployed with serverless: 
 
@@ -8,7 +8,7 @@ Each service can be deployed with serverless:
 serverless deploy
 ```
 
-This will create the necessary resources to support the service and events that are defined in `serverless.yml`.
+This creates the necessary resources to support the service and events that are defined in `serverless.yml`.
 
 ### Invoking and inspecting a function
 
@@ -34,8 +34,11 @@ serverless remove
 
 ###Testing
 * Google cloud: https://us-central1-go-fibonacci.cloudfunctions.net/http
-* AWS: https://v78v2mvnb5.execute-api.eu-west-1.amazonaws.com/dev/ping
+* AWS: https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
 * Azure: https://calfibonacci.azurewebsites.net/api/calcFibonacci
+    - https://calfibonacci.azurewebsites.net/api/DebugConsole
+
+*Note*: Google cloud is (at time of testing) only available in the central-US region. Azure and AWS functions are hosted in similar US locations to make sure latency is comparable.  
 
 Test using curl and abs: 
 
@@ -50,5 +53,8 @@ To execute the locally installed Serverless executable you have to reference the
 
 Example:
 
+```bash
 node ./node_modules/serverless/bin/serverless deploy
+
+```
 

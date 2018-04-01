@@ -19,7 +19,7 @@ service: calFibonacci
 
 provider:
   name: azure
-  location: North Europe
+  location: East US
 
 plugins:
   - serverless-azure-functions
@@ -35,7 +35,7 @@ plugins:
 
 functions:
   calcFibonacci:
-    handler: handler.cFibonacci
+    handler: handler.calFib
     events:
       - http: true
         x-azure-settings:
