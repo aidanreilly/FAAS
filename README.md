@@ -1,9 +1,9 @@
 ### Load testing identical functions on AWS, Google Cloud, and Azure
 
-All functions are hosted out of US East or US central data centers. Function locations:
+Each function calculates the fibonacci sequence to 150 places when it is invoked. All functions are hosted out of US East or US central data centers. Data center locations:
 
-* AWS: us-east-1
-* Google-Cloud: us-central1 
+* AWS: US-East-1
+* Google-Cloud: US-Central1 
 * Azure: East US
 
 *Note*: Google cloud is (at time of testing) only available in the central-US region. Azure and AWS functions are hosted in similar US locations to ensure comparable latency.   
