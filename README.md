@@ -49,7 +49,8 @@ Test using curl and abs:
 serverless invoke local --function <your-service> --log
 
 ```bash
-abs -k -c 20 -n 250 https://61y5mcy9j7.execute-api.us-east-1.amazonaws.com/dev/ping
+abs -k -c 20 -n 250 https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
+abs -k -c 20 -n 250 https://8s6r4ur3g6.execute-api.us-east-1.amazonaws.com/dev/ping
 
 ```
 
