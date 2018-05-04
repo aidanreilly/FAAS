@@ -1,16 +1,19 @@
 'use strict';
 
-module.exports.endpoint = (event, context, callback) => {{
+module.exports.endpoint = (event, context, callback) => {
   //https://hackernoon.com/aws-lambda-go-vs-node-js-performance-benchmark-1c8898341982
-  for (let i=0; i<30; i++){
-    console.log(fib(i))
+  //https://stackoverflow.com/questions/11455430/javascript-storing-for-loop-result
+  var fibOut = [];
+  for (let i=0; i<40; i++){
+    console.log(fib(i));
+    fibOut.push(fib(i))
   } 
 
   const result = {
     "isBase64Encoded": false,
     "statusCode": 200,
     "headers": {},
-    "body": 'Calculated Fibonacci to 150 places, the final calculated value is: '
+    "body": 'Calculated Fibonacci to 40 places, the final calculated value is: ' + (fibOut[39])
   }
 
   function fib(n) {
@@ -23,4 +26,3 @@ module.exports.endpoint = (event, context, callback) => {{
   
   callback(null, result);
 };
-
