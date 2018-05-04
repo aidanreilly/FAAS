@@ -1,6 +1,6 @@
 'use strict';
 
-exports.handler = (event, context, callback) => {
+module.exports.endpoint = (event, context, callback) => {{
   //https://hackernoon.com/aws-lambda-go-vs-node-js-performance-benchmark-1c8898341982
   for (let i=0; i<30; i++){
     console.log(fib(i))
