@@ -1,4 +1,4 @@
-service: calc-fibonacci-recur
+service: calc-fib-recursion
 
 frameworkVersion: ">=1.1.0 <2.0.0"
 
@@ -9,7 +9,7 @@ provider:
 # following may not work, try from cmd: serverless deploy --region eu-west-1
 
 functions:
-  calculateFibonacciRecur:
+  calcFibRecur:
     handler: handler.endpoint
     events:
       - http:

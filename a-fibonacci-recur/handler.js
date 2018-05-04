@@ -1,36 +1,26 @@
 'use strict';
 
-module.exports.endpoint = (event, context, callback) => {
+exports.handler = (event, context, callback) => {
+  //https://hackernoon.com/aws-lambda-go-vs-node-js-performance-benchmark-1c8898341982
+  for (let i=0; i<30; i++){
+    console.log(fib(i))
+  } 
 
-var http = require('http')
-var fork = require('child_process').fork;
-
-function fib(n) {
-  if (n < 2) {
-    return 1;
-  } else {
-    return fib(n - 2) + fib(n - 1);
-  }
-}
-
-if (process.argv[2] == 'fib') {
-  var r = fib(10);
-  process.send({ result: r });
-  process.exit(0);
-} else {
   const result = {
     "isBase64Encoded": false,
     "statusCode": 200,
     "headers": {},
-    "body": 'Calculated Fibonacci to 40 places using a recursive algorithm, the final calculated value is: ' + r
+    "body": 'Calculated Fibonacci to 150 places, the final calculated value is: '
   }
-}
 
+  function fib(n) {
+    if(n > 1){
+      return fib(n-1) + fib(n-2)
+    } else {
+      return n;
+    }
+  }
+  
   callback(null, result);
 };
-
-
-
-
-
 
