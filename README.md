@@ -63,3 +63,7 @@ node ./node_modules/serverless/bin/serverless deploy
 
 ```
 
+#Changing projects on gcloud
+
+the gcloud project must be switch
+
