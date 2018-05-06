@@ -6,6 +6,18 @@ Each function calculates the fibonacci sequence to 150 places when it is invoked
 * Google-Cloud: US-Central1 
 * Azure: East US
 
+VM login
+
+aidan_reilly
+0{1B)PC(t>}#taC
+
+AWS
+User name   Administrator
+Password    
+RtLLL754roF
+
+https://cloud.google.com/about/locations/?region=americas#region
+
 *Note*: Google cloud is (at time of testing) only available in the central-US region. Azure and AWS functions are hosted in similar US locations to ensure comparable latency.   
 
 Each service can be deployed with serverless: 
@@ -44,12 +56,13 @@ Google cloud:
 * https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
 
 AWS: 
-* https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
-* https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
+* () https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
+* (RECURSION ROUTINE) https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
 
 Azure: 
-* https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
 * https://calfibonacci.azurewebsites.net/api/calcFibonacci
+* https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
+
 
 
 https://calfibonacci.azurewebsites.net/api/calcFibonacci
@@ -64,6 +77,8 @@ abs -k -c 20 -n 250 https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/p
 abs -k -c 20 -n 250 https://8s6r4ur3g6.execute-api.us-east-1.amazonaws.com/dev/ping
 
 ```
+
+C:\xampp\apache\bin\abs.exe -k -c 20 -n 250 https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci > az-local20.txt
 
 To execute the locally installed Serverless executable you have to reference the binary out of the node modules directory.
 

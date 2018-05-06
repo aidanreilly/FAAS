@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking k9kec8cpgc.execute-api.us-east-1.amazonaws.com (be patient)
+
+
+Server Software:        
+Server Hostname:        k9kec8cpgc.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        k9kec8cpgc.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        89 bytes
+
+Concurrency Level:      500
+Time taken for tests:   17.890 seconds
+Complete requests:      500
+Failed requests:        0
+Keep-Alive requests:    500
+Total transferred:      271500 bytes
+HTML transferred:       44500 bytes
+Requests per second:    27.95 [#/sec] (mean)
+Time per request:       17890.236 [ms] (mean)
+Time per request:       35.780 [ms] (mean, across all concurrent requests)
+Transfer rate:          14.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0 1645 257.7   1656    2062
+Processing:  4375 8175 1115.6   7703   10531
+Waiting:     4375 8173 1119.4   7703   10531
+Total:       5969 9820 1296.6   9250   12500
+
+Percentage of the requests served within a certain time (ms)
+  50%   9250
+  66%  10547
+  75%  10795
+  80%  10968
+  90%  11937
+  95%  12094
+  98%  12250
+  99%  12281
+ 100%  12500 (longest request)
