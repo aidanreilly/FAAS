@@ -12,7 +12,7 @@ module.exports.endpoint = (event, context, callback) => {
     "isBase64Encoded": false,
     "statusCode": 200,
     "headers": {},
-    "body": 'Calculated Fibonacci to 40 places, the final calculated value is: ' + (fibOut[39])
+    "body": 'Calculated Fibonacci to 40 places with recursion, the final calculated value is: ' + (fibOut[39])
   }
 
   function fib(n) {
