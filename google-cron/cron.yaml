@@ -1,4 +1,4 @@
 cron:
-    - description: "Hourly Job"
+    - description: "Every 4 minutes"
       url: /hour
       schedule: every 4 minutes
