@@ -39,10 +39,21 @@ serverless remove
 ```
 
 ###Testing
-* Google cloud: https://us-central1-go-fibonacci.cloudfunctions.net/http
-* AWS: https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
-* Azure: https://calfibonacci.azurewebsites.net/api/calcFibonacci
-    - https://calfibonacci.azurewebsites.net/api/DebugConsole
+Google cloud: 
+* https://us-central1-go-fibonacci.cloudfunctions.net/http
+* https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
+
+AWS: 
+* https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
+* https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
+
+Azure: 
+* https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
+* https://calfibonacci.azurewebsites.net/api/calcFibonacci
+
+
+https://calfibonacci.azurewebsites.net/api/calcFibonacci
+https://calfibonacci.azurewebsites.net/api/DebugConsole
 
 Test using curl and abs: 
 

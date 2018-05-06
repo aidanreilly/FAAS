@@ -6,7 +6,7 @@ module.exports.calFib = function (context) {
 
   const fibo = fib()
   for (let i=0; i<150; i++){
-    console.log(fibo())
+    fibo()
   } 
   const result = {
     "isBase64Encoded": false,

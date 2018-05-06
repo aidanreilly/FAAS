@@ -5,7 +5,6 @@ module.exports.endpoint = (event, context, callback) => {
   //https://stackoverflow.com/questions/11455430/javascript-storing-for-loop-result
   var fibOut = [];
   for (let i=0; i<40; i++){
-    console.log(fib(i));
     fibOut.push(fib(i))
   } 
 

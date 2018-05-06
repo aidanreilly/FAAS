@@ -4,7 +4,6 @@ exports.http = (request, response) => {
 
   var fibOut = [];
   for (let i=0; i<40; i++){
-    console.log(fib(i));
     fibOut.push(fib(i))
   } 
 

@@ -4,7 +4,7 @@ exports.http = (request, response) => {
 
   const fibo = fib()
   for (let i=0; i<150; i++){
-    console.log(fibo())
+    fibo()
 } 
 
 function fib() {
