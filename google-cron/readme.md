@@ -8,7 +8,7 @@ https://console.cloud.google.com/appengine/taskqueues/cron?project=go-fibonacci
 
 change to go-fibonacci project
   
-    gcloud app deploy app.yaml
+    gcloud app deploy app.yaml C:\git\FAAS\google-cron\cron.yaml
 
 from cmd to see logs:
 
