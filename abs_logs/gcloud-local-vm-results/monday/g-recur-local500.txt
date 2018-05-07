@@ -1,0 +1,47 @@
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking us-central1-go-fibonacci-recur.cloudfunctions.net (be patient)
+
+
+Server Software:        Google
+Server Hostname:        us-central1-go-fibonacci-recur.cloudfunctions.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        us-central1-go-fibonacci-recur.cloudfunctions.net
+
+Document Path:          /http
+Document Length:        90 bytes
+
+Concurrency Level:      500
+Time taken for tests:   135.127 seconds
+Complete requests:      500
+Failed requests:        10
+   (Connect: 0, Receive: 0, Length: 10, Exceptions: 0)
+Non-2xx responses:      10
+Keep-Alive requests:    500
+Total transferred:      199704 bytes
+HTML transferred:       47330 bytes
+Requests per second:    3.70 [#/sec] (mean)
+Time per request:       135126.823 [ms] (mean)
+Time per request:       270.254 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.44 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0 3925 1968.9   3703    6781
+Processing:  5078 45250 21577.9  46079  101673
+Waiting:     5078 45240 21584.8  46079  101673
+Total:       9438 49174 21032.9  48282  105298
+
+Percentage of the requests served within a certain time (ms)
+  50%  48282
+  66%  58688
+  75%  62845
+  80%  67063
+  90%  79064
+  95%  85767
+  98%  92423
+  99%  93970
+ 100%  105298 (longest request)
