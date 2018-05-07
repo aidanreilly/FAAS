@@ -12,34 +12,34 @@ SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
 TLS Server Name:        calfibonacci.azurewebsites.net
 
 Document Path:          /api/calcFibonacci
-Document Length:        90 bytes
+Document Length:        77 bytes
 
 Concurrency Level:      20
-Time taken for tests:   7.203 seconds
+Time taken for tests:   7.640 seconds
 Complete requests:      250
 Failed requests:        0
 Keep-Alive requests:    250
-Total transferred:      86000 bytes
-HTML transferred:       22500 bytes
-Requests per second:    34.71 [#/sec] (mean)
-Time per request:       576.237 [ms] (mean)
-Time per request:       28.812 [ms] (mean, across all concurrent requests)
-Transfer rate:          11.66 [Kbytes/sec] received
+Total transferred:      82750 bytes
+HTML transferred:       19250 bytes
+Requests per second:    32.72 [#/sec] (mean)
+Time per request:       611.162 [ms] (mean)
+Time per request:       30.558 [ms] (mean, across all concurrent requests)
+Transfer rate:          10.58 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    6  20.9      0     109
-Processing:     0  469 1484.0     31    7062
-Waiting:        0  468 1484.1     31    7062
-Total:         16  475 1487.1     32    7140
+Connect:        0    4  14.1      0      63
+Processing:     0  495 1584.5     47    7499
+Waiting:        0  495 1584.5     47    7499
+Total:         16  499 1586.5     47    7514
 
 Percentage of the requests served within a certain time (ms)
-  50%     32
+  50%     47
   66%     47
-  75%     47
-  80%     63
-  90%    797
-  95%   5859
-  98%   6312
-  99%   6609
- 100%   7140 (longest request)
+  75%     63
+  80%     78
+  90%    793
+  95%   6223
+  98%   6737
+  99%   7063
+ 100%   7514 (longest request)
