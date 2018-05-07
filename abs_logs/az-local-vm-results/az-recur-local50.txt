@@ -15,31 +15,31 @@ Document Path:          /api/calcFibonacci
 Document Length:        92 bytes
 
 Concurrency Level:      50
-Time taken for tests:   201.495 seconds
+Time taken for tests:   175.257 seconds
 Complete requests:      250
 Failed requests:        0
 Keep-Alive requests:    250
 Total transferred:      86500 bytes
 HTML transferred:       23000 bytes
-Requests per second:    1.24 [#/sec] (mean)
-Time per request:       40299.080 [ms] (mean)
-Time per request:       805.982 [ms] (mean, across all concurrent requests)
-Transfer rate:          0.42 [Kbytes/sec] received
+Requests per second:    1.43 [#/sec] (mean)
+Time per request:       35051.492 [ms] (mean)
+Time per request:       701.030 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.48 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0   36  75.3      0     250
-Processing:  9484 31779 17116.9  28796  105638
-Waiting:     9484 31778 17117.6  28796  105638
-Total:       9672 31815 17120.5  28796  105638
+Connect:        0   34  68.9      0     195
+Processing: 10266 27957 12800.3  23222   65708
+Waiting:    10266 27956 12800.6  23222   65708
+Total:      10313 27991 12812.0  23222   65708
 
 Percentage of the requests served within a certain time (ms)
-  50%  28796
-  66%  32984
-  75%  39468
-  80%  41640
-  90%  53077
-  95%  66514
-  98%  84857
-  99%  94592
- 100%  105638 (longest request)
+  50%  23222
+  66%  31139
+  75%  34036
+  80%  35963
+  90%  48145
+  95%  55054
+  98%  60668
+  99%  64984
+ 100%  65708 (longest request)

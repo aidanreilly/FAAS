@@ -14,7 +14,15 @@ aidan_reilly
 AWS
 User name   Administrator
 Password    
-RtLLL754roF
+LF8ti3Tx39*
+
+Azure
+aidan-admin
+Hotbooty1234
+
+g
+aidan_reilly
+).mZ=mhS$x~8gUH
 
 https://cloud.google.com/about/locations/?region=americas#region
 
@@ -56,13 +64,22 @@ Google cloud:
 * https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
 
 AWS: 
-* () https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
+* https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
 * (RECURSION ROUTINE) https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
 
 Azure: 
 * https://calfibonacci.azurewebsites.net/api/calcFibonacci
 * https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
 
+abs -k -c 20 -n 250 https://calfibonacci.azurewebsites.net/api/calcFibonacci
+
+
+
+```bash
+abs -k -c 20 -n 20 https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
+abs -k -c 20 -n 250 https://8s6r4ur3g6.execute-api.us-east-1.amazonaws.com/dev/ping
+
+```
 
 
 https://calfibonacci.azurewebsites.net/api/calcFibonacci
@@ -75,6 +92,12 @@ serverless invoke local --function <your-service> --log
 ```bash
 abs -k -c 20 -n 250 https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
 abs -k -c 20 -n 250 https://8s6r4ur3g6.execute-api.us-east-1.amazonaws.com/dev/ping
+
+abs -k -c 20 -n 250 https://calfibonacci.azurewebsites.net/api/calcFibonacci
+abs -k -c 20 -n 250 https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
+
+abs -k -c 20 -n 250 https://us-central1-go-fibonacci.cloudfunctions.net/http
+abs -k -c 20 -n 250
 
 ```
 
@@ -95,3 +118,7 @@ https://console.cloud.google.com/appengine/taskqueues/cron?project=go-fibonacci
 
 the gcloud project must be switch
 
+Azure uses two models for scaling, consumption plan and app servcies plan
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
+
+https://devops.stackexchange.com/questions/255/how-to-performance-test-aws-lambda-functions/259

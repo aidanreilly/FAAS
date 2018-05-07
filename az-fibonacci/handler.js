@@ -5,7 +5,7 @@
 module.exports.calFib = function (context) {
 
   const fibo = fib()
-  for (let i=0; i<150; i++){
+  for (let i=0; i<40; i++){
     fibo()
   } 
   const result = {
@@ -28,7 +28,7 @@ module.exports.calFib = function (context) {
 
   context.res = {
     // status: 200, /* Defaults to 200 */
-    body: 'Calculated Fibonacci to 150 places, the final calculated value is: ' + (fibo())
+    body: 'Calculated Fibonacci to 40 places, the final calculated value is: ' + (fibo())
   };
 
   context.done();
