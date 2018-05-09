@@ -60,16 +60,24 @@ serverless remove
 
 ###Testing
 Google cloud: 
-* https://us-central1-go-fibonacci.cloudfunctions.net/http
-* https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
+* simple https://us-central1-go-fibonacci.cloudfunctions.net/http
+* 256 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
+* 512 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-512
+* 1 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB
+* 2 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB
 
 AWS: 
-* https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
-* (RECURSION ROUTINE) https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
+* simple https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
+* 256 MB https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
+* 512 MB https://0qwlklexf2.execute-api.us-east-1.amazonaws.com/dev/ping
+* 1 GB https://1fd9j85pbj.execute-api.us-east-1.amazonaws.com/dev/ping
+* 2 GB https://l1zp09xozj.execute-api.us-east-1.amazonaws.com/dev/ping
 
 Azure: 
 * https://calfibonacci.azurewebsites.net/api/calcFibonacci
 * https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
+
+Azure automatically scales the function depending on demand. The container size setting is a hold-over from an early preview of Azure Functions where you had to set the memory limit of your function and that setting was what determined how you were billed. If you'd like some more context on the change that happened see this post. The fact that its still present in our REST API is just an API cleanup issue. The important thing to note is that this setting is not honored any more. Instead you are billed for your actual memory usage. The closest thing we have to an enforced limit is that you can specify a max daily GBsec. This feature is in the settings tab.
 
 abs -k -c 20 -n 250 https://calfibonacci.azurewebsites.net/api/calcFibonacci
 

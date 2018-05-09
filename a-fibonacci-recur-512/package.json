@@ -1,0 +1,7 @@
+{
+  "name": "cal-fib-recur-512",
+  "version": "1.0.0",
+  "description": "Calculates fibonacci using recursion",
+  "author": "",
+  "license": "MIT"
+}
