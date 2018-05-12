@@ -15,7 +15,7 @@ class HourCronPage(webapp2.RequestHandler):
         request_gr1GB = urllib2.Request('https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB', headers={"cronrequest" : "true"})
         contents_gr1GB = urllib2.urlopen(request_gr1GB, timeout = 500).read()
 
-        request_gr2GB = urllib2.Request('https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB', headers={"cronrequest" : "true"})
+        request_gr2GB = urllib2.Request('https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-2GB', headers={"cronrequest" : "true"})
         contents_gr2GB = urllib2.urlopen(request_gr2GB, timeout = 500).read()
 
         #begin azure pings. 2 pings only

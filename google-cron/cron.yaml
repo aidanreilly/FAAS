@@ -1,4 +1,5 @@
 cron:
-    - description: "Every 4 minutes"
-      url: /hour
-      schedule: every 4 minutes
+#uncomment to reinstate the cron job
+#    - description: "Every 4 minutes"
+#      url: /hour
+#      schedule: every 4 minutes

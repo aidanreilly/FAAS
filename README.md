@@ -64,7 +64,7 @@ Google cloud:
 * 256 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
 * 512 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-512
 * 1 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB
-* 2 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB
+* 2 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-2GB
 
 AWS: 
 * simple https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
@@ -130,3 +130,10 @@ Azure uses two models for scaling, consumption plan and app servcies plan
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
 
 https://devops.stackexchange.com/questions/255/how-to-performance-test-aws-lambda-functions/259
+
+
+#See the 
+
+
+#COMPARE
+Built in code editor is a good thing!
