@@ -1,0 +1,980 @@
+12/05/2018 14:46:40.47  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.750 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14749.955 [ms] (mean)
+Time per request:       14749.955 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14469 14469   0.0  14469   14469
+Waiting:    14469 14469   0.0  14469   14469
+Total:      14750 14750   0.0  14750   14750
+12/05/2018 15:46:42.49  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   15.687 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.06 [#/sec] (mean)
+Time per request:       15687.462 [ms] (mean)
+Time per request:       15687.462 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 15406 15406   0.0  15406   15406
+Waiting:    15406 15406   0.0  15406   15406
+Total:      15687 15687   0.0  15687   15687
+12/05/2018 16:46:41.31  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.372 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13371.704 [ms] (mean)
+Time per request:       13371.704 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13091 13091   0.0  13091   13091
+Waiting:    13091 13091   0.0  13091   13091
+Total:      13372 13372   0.0  13372   13372
+12/05/2018 17:46:42.22  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   15.281 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       15281.192 [ms] (mean)
+Time per request:       15281.192 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 15000 15000   0.0  15000   15000
+Waiting:    15000 15000   0.0  15000   15000
+Total:      15281 15281   0.0  15281   15281
+12/05/2018 18:46:39.61  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   23.312 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.04 [#/sec] (mean)
+Time per request:       23312.417 [ms] (mean)
+Time per request:       23312.417 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 23031 23031   0.0  23031   23031
+Waiting:    23031 23031   0.0  23031   23031
+Total:      23312 23312   0.0  23312   23312
+12/05/2018 19:46:39.40  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.547 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13546.812 [ms] (mean)
+Time per request:       13546.812 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13266 13266   0.0  13266   13266
+Waiting:    13266 13266   0.0  13266   13266
+Total:      13547 13547   0.0  13547   13547
+12/05/2018 20:46:41.93  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.484 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14484.352 [ms] (mean)
+Time per request:       14484.352 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14203 14203   0.0  14203   14203
+Waiting:    14203 14203   0.0  14203   14203
+Total:      14484 14484   0.0  14484   14484
+12/05/2018 21:46:38.73  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.391 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14390.564 [ms] (mean)
+Time per request:       14390.564 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14109 14109   0.0  14109   14109
+Waiting:    14109 14109   0.0  14109   14109
+Total:      14391 14391   0.0  14391   14391
+12/05/2018 22:46:42.23  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.859 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13859.338 [ms] (mean)
+Time per request:       13859.338 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13578 13578   0.0  13578   13578
+Waiting:    13578 13578   0.0  13578   13578
+Total:      13859 13859   0.0  13859   13859
+12/05/2018 23:46:41.37  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.422 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14421.807 [ms] (mean)
+Time per request:       14421.807 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14141 14141   0.0  14141   14141
+Waiting:    14141 14141   0.0  14141   14141
+Total:      14422 14422   0.0  14422   14422
+13/05/2018  1:32:39.36  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.687 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13687.456 [ms] (mean)
+Time per request:       13687.456 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13406 13406   0.0  13406   13406
+Waiting:    13406 13406   0.0  13406   13406
+Total:      13687 13687   0.0  13687   13687
+13/05/2018  1:46:44.26  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   10.984 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.09 [#/sec] (mean)
+Time per request:       10984.342 [ms] (mean)
+Time per request:       10984.342 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 10703 10703   0.0  10703   10703
+Waiting:    10703 10703   0.0  10703   10703
+Total:      10984 10984   0.0  10984   10984
+13/05/2018  2:46:40.20  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.625 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13624.954 [ms] (mean)
+Time per request:       13624.954 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13344 13344   0.0  13344   13344
+Waiting:    13344 13344   0.0  13344   13344
+Total:      13625 13625   0.0  13625   13625
+13/05/2018  3:46:38.26  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.875 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14874.950 [ms] (mean)
+Time per request:       14874.950 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14594 14594   0.0  14594   14594
+Waiting:    14594 14594   0.0  14594   14594
+Total:      14875 14875   0.0  14875   14875
+13/05/2018  4:46:41.31  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.781 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14781.215 [ms] (mean)
+Time per request:       14781.215 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14500 14500   0.0  14500   14500
+Waiting:    14500 14500   0.0  14500   14500
+Total:      14781 14781   0.0  14781   14781
+13/05/2018  5:46:43.35  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.750 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14749.935 [ms] (mean)
+Time per request:       14749.935 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14469 14469   0.0  14469   14469
+Waiting:    14469 14469   0.0  14469   14469
+Total:      14750 14750   0.0  14750   14750
+13/05/2018  6:46:40.31  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.812 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14812.412 [ms] (mean)
+Time per request:       14812.412 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14531 14531   0.0  14531   14531
+Waiting:    14531 14531   0.0  14531   14531
+Total:      14812 14812   0.0  14812   14812
+13/05/2018  7:46:39.37  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.922 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14921.820 [ms] (mean)
+Time per request:       14921.820 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14641 14641   0.0  14641   14641
+Waiting:    14641 14641   0.0  14641   14641
+Total:      14922 14922   0.0  14922   14922
+13/05/2018  8:46:39.16  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.187 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14187.426 [ms] (mean)
+Time per request:       14187.426 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13906 13906   0.0  13906   13906
+Waiting:    13906 13906   0.0  13906   13906
+Total:      14187 14187   0.0  14187   14187
+13/05/2018  9:46:41.89  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.672 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14671.861 [ms] (mean)
+Time per request:       14671.861 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14391 14391   0.0  14391   14391
+Waiting:    14391 14391   0.0  14391   14391
+Total:      14672 14672   0.0  14672   14672
+13/05/2018 10:46:38.90  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.344 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14343.694 [ms] (mean)
+Time per request:       14343.694 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14062 14062   0.0  14062   14062
+Waiting:    14062 14062   0.0  14062   14062
+Total:      14344 14344   0.0  14344   14344
+13/05/2018 11:46:38.69  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.656 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13656.172 [ms] (mean)
+Time per request:       13656.172 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      297  297   0.0    297     297
+Processing: 13359 13359   0.0  13359   13359
+Waiting:    13359 13359   0.0  13359   13359
+Total:      13656 13656   0.0  13656   13656
+13/05/2018 12:46:39.84  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.844 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13843.730 [ms] (mean)
+Time per request:       13843.730 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      297  297   0.0    297     297
+Processing: 13547 13547   0.0  13547   13547
+Waiting:    13547 13547   0.0  13547   13547
+Total:      13844 13844   0.0  13844   13844
+13/05/2018 13:46:43.15  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.469 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13468.648 [ms] (mean)
+Time per request:       13468.648 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13187 13187   0.0  13187   13187
+Waiting:    13187 13187   0.0  13187   13187
+Total:      13469 13469   0.0  13469   13469
+13/05/2018 14:46:39.65  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.750 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13749.976 [ms] (mean)
+Time per request:       13749.976 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13469 13469   0.0  13469   13469
+Waiting:    13469 13469   0.0  13469   13469
+Total:      13750 13750   0.0  13750   13750
+13/05/2018 15:47:07.78  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.594 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       14593.691 [ms] (mean)
+Time per request:       14593.691 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 14312 14312   0.0  14312   14312
+Waiting:    14312 14312   0.0  14312   14312
+Total:      14594 14594   0.0  14594   14594
+13/05/2018 16:46:44.33  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.906 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13906.216 [ms] (mean)
+Time per request:       13906.216 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing: 13625 13625   0.0  13625   13625
+Waiting:    13625 13625   0.0  13625   13625
+Total:      13906 13906   0.0  13906   13906
+13/05/2018 17:46:43.50  
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calfibonaccirecur.azurewebsites.net (be patient).....done
+
+
+Server Software:        Microsoft-IIS/10.0
+Server Hostname:        calfibonaccirecur.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        calfibonaccirecur.azurewebsites.net
+
+Document Path:          /api/calcFibonacci
+Document Length:        92 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.484 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      346 bytes
+HTML transferred:       92 bytes
+Requests per second:    0.07 [#/sec] (mean)
+Time per request:       13484.341 [ms] (mean)
+Time per request:       13484.341 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      266  266   0.0    266     266
+Processing: 13219 13219   0.0  13219   13219
+Waiting:    13219 13219   0.0  13219   13219
+Total:      13484 13484   0.0  13484   13484

@@ -6,6 +6,6 @@ All tested Sunday/Moday may bank holiday weekend.
 
 https://docs.aws.amazon.com/lambda/latest/dg/concurrent-executions.html
 
-Amazon hits concurrency limits at 1000.
+Amazon hits concurrency limitts at 1000.
 Account Level Concurrent Execution Limit
 By default, AWS Lambda limits the total concurrent executions across all functions within a given region to 1000. You can view the account level setting by using the GetAccountSettings API and viewing the AccountLimit object. This limit can be raised as described below:

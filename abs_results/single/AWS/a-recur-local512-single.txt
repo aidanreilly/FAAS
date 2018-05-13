@@ -1,0 +1,980 @@
+12/05/2018 14:46:04.73 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.000 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7999.982 [ms] (mean)
+Time per request:       7999.982 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  7953 7953   0.0   7953    7953
+Waiting:     7953 7953   0.0   7953    7953
+Total:       8000 8000   0.0   8000    8000
+12/05/2018 15:46:03.55 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.187 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8187.480 [ms] (mean)
+Time per request:       8187.480 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8141 8141   0.0   8141    8141
+Waiting:     8141 8141   0.0   8141    8141
+Total:       8187 8187   0.0   8187    8187
+12/05/2018 16:46:04.20 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.998 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7998.041 [ms] (mean)
+Time per request:       7998.041 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  7951 7951   0.0   7951    7951
+Waiting:     7951 7951   0.0   7951    7951
+Total:       7998 7998   0.0   7998    7998
+12/05/2018 17:46:02.27 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.812 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.11 [#/sec] (mean)
+Time per request:       8812.495 [ms] (mean)
+Time per request:       8812.495 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.06 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8766 8766   0.0   8766    8766
+Waiting:     8766 8766   0.0   8766    8766
+Total:       8812 8812   0.0   8812    8812
+12/05/2018 18:46:02.35 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.297 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8296.837 [ms] (mean)
+Time per request:       8296.837 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      281  281   0.0    281     281
+Processing:  8016 8016   0.0   8016    8016
+Waiting:     8016 8016   0.0   8016    8016
+Total:       8297 8297   0.0   8297    8297
+12/05/2018 19:46:02.38 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.172 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8171.856 [ms] (mean)
+Time per request:       8171.856 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       63   63   0.0     63      63
+Processing:  8109 8109   0.0   8109    8109
+Waiting:     8109 8109   0.0   8109    8109
+Total:       8172 8172   0.0   8172    8172
+12/05/2018 20:46:02.87 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.125 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8124.972 [ms] (mean)
+Time per request:       8124.972 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       62   62   0.0     62      62
+Processing:  8062 8062   0.0   8062    8062
+Waiting:     8062 8062   0.0   8062    8062
+Total:       8125 8125   0.0   8125    8125
+12/05/2018 21:46:02.27 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.219 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8218.706 [ms] (mean)
+Time per request:       8218.706 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8172 8172   0.0   8172    8172
+Waiting:     8172 8172   0.0   8172    8172
+Total:       8219 8219   0.0   8219    8219
+12/05/2018 22:46:02.64 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.969 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7968.699 [ms] (mean)
+Time per request:       7968.699 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31   31   0.0     31      31
+Processing:  7937 7937   0.0   7937    7937
+Waiting:     7937 7937   0.0   7937    7937
+Total:       7969 7969   0.0   7969    7969
+12/05/2018 23:46:02.44 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.266 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8265.624 [ms] (mean)
+Time per request:       8265.624 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31   31   0.0     31      31
+Processing:  8234 8234   0.0   8234    8234
+Waiting:     8234 8234   0.0   8234    8234
+Total:       8266 8266   0.0   8266    8266
+13/05/2018  1:32:02.35 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.141 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8140.593 [ms] (mean)
+Time per request:       8140.593 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8094 8094   0.0   8094    8094
+Waiting:     8094 8094   0.0   8094    8094
+Total:       8141 8141   0.0   8141    8141
+13/05/2018  1:46:01.00 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   10.672 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.09 [#/sec] (mean)
+Time per request:       10671.836 [ms] (mean)
+Time per request:       10671.836 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       78   78   0.0     78      78
+Processing: 10594 10594   0.0  10594   10594
+Waiting:    10594 10594   0.0  10594   10594
+Total:      10672 10672   0.0  10672   10672
+13/05/2018  2:46:02.05 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.266 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8265.604 [ms] (mean)
+Time per request:       8265.604 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8219 8219   0.0   8219    8219
+Waiting:     8219 8219   0.0   8219    8219
+Total:       8266 8266   0.0   8266    8266
+13/05/2018  3:46:01.66 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.000 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7999.961 [ms] (mean)
+Time per request:       7999.961 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31   31   0.0     31      31
+Processing:  7969 7969   0.0   7969    7969
+Waiting:     7969 7969   0.0   7969    7969
+Total:       8000 8000   0.0   8000    8000
+13/05/2018  4:46:02.38 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.359 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8359.298 [ms] (mean)
+Time per request:       8359.298 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.06 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8312 8312   0.0   8312    8312
+Waiting:     8312 8312   0.0   8312    8312
+Total:       8359 8359   0.0   8359    8359
+13/05/2018  5:46:02.24 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   9.844 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.10 [#/sec] (mean)
+Time per request:       9843.745 [ms] (mean)
+Time per request:       9843.745 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31   31   0.0     31      31
+Processing:  9812 9812   0.0   9812    9812
+Waiting:     9812 9812   0.0   9812    9812
+Total:       9844 9844   0.0   9844    9844
+13/05/2018  6:46:02.43 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.984 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7984.349 [ms] (mean)
+Time per request:       7984.349 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       78   78   0.0     78      78
+Processing:  7906 7906   0.0   7906    7906
+Waiting:     7906 7906   0.0   7906    7906
+Total:       7984 7984   0.0   7984    7984
+13/05/2018  7:46:02.25 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.281 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8281.233 [ms] (mean)
+Time per request:       8281.233 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31   31   0.0     31      31
+Processing:  8250 8250   0.0   8250    8250
+Waiting:     8250 8250   0.0   8250    8250
+Total:       8281 8281   0.0   8281    8281
+13/05/2018  8:46:02.25 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.078 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8078.114 [ms] (mean)
+Time per request:       8078.114 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8031 8031   0.0   8031    8031
+Waiting:     8031 8031   0.0   8031    8031
+Total:       8078 8078   0.0   8078    8078
+13/05/2018  9:46:04.49 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.234 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8234.359 [ms] (mean)
+Time per request:       8234.359 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8187 8187   0.0   8187    8187
+Waiting:     8187 8187   0.0   8187    8187
+Total:       8234 8234   0.0   8234    8234
+13/05/2018 10:46:02.33 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.203 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8203.066 [ms] (mean)
+Time per request:       8203.066 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8156 8156   0.0   8156    8156
+Waiting:     8156 8156   0.0   8156    8156
+Total:       8203 8203   0.0   8203    8203
+13/05/2018 11:46:02.69 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.312 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8312.477 [ms] (mean)
+Time per request:       8312.477 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.06 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       63   63   0.0     63      63
+Processing:  8250 8250   0.0   8250    8250
+Waiting:     8250 8250   0.0   8250    8250
+Total:       8312 8312   0.0   8312    8312
+13/05/2018 12:46:02.40 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.703 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.11 [#/sec] (mean)
+Time per request:       8703.118 [ms] (mean)
+Time per request:       8703.118 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.06 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       78   78   0.0     78      78
+Processing:  8625 8625   0.0   8625    8625
+Waiting:     8625 8625   0.0   8625    8625
+Total:       8703 8703   0.0   8703    8703
+13/05/2018 13:46:06.04 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.141 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8140.617 [ms] (mean)
+Time per request:       8140.617 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8094 8094   0.0   8094    8094
+Waiting:     8094 8094   0.0   8094    8094
+Total:       8141 8141   0.0   8141    8141
+13/05/2018 14:46:01.92 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.234 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8234.364 [ms] (mean)
+Time per request:       8234.364 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8187 8187   0.0   8187    8187
+Waiting:     8187 8187   0.0   8187    8187
+Total:       8234 8234   0.0   8234    8234
+13/05/2018 15:46:01.73 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.062 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8062.486 [ms] (mean)
+Time per request:       8062.486 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       78   78   0.0     78      78
+Processing:  7984 7984   0.0   7984    7984
+Waiting:     7984 7984   0.0   7984    7984
+Total:       8062 8062   0.0   8062    8062
+13/05/2018 16:46:02.80 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.250 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8249.965 [ms] (mean)
+Time per request:       8249.965 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  8203 8203   0.0   8203    8203
+Waiting:     8203 8203   0.0   8203    8203
+Total:       8250 8250   0.0   8250    8250
+13/05/2018 17:46:01.81 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0qwlklexf2.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        0qwlklexf2.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.000 seconds
+Complete requests:      1
+Failed requests:        0
+Keep-Alive requests:    1
+Total transferred:      553 bytes
+HTML transferred:       99 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7999.979 [ms] (mean)
+Time per request:       7999.979 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       47   47   0.0     47      47
+Processing:  7953 7953   0.0   7953    7953
+Waiting:     7953 7953   0.0   7953    7953
+Total:       8000 8000   0.0   8000    8000
