@@ -17,7 +17,7 @@ The necessary resources to support the service and events are defined in serverl
 When the service is deployed, test using the following command:
 
 ```shell
-serverless invoke -f 
+serverless invoke -f <your-servce>
 ```
 
 Additionally, if you'd like to view the logs that a function generates (either via the runtime, or create by your handler by calling context.log), you can simply run the following command:
