@@ -38,7 +38,7 @@ Once you're finished with your service, you can remove all resources by simply r
 serverless remove
 ```
 
-###Testing
+### Testing
 
 Google cloud: 
 * Linear function https://us-central1-go-fibonacci.cloudfunctions.net/http
