@@ -8,7 +8,7 @@ Each function calculates the fibonacci sequence to 40 places. All functions are 
 
 *Note*: Google cloud is (at time of testing) only available in the central-US region. Azure and AWS functions are hosted in similar US locations to ensure comparable latency when testing.   
 
-Each service can be deployed with serverless: 
+Each service can be deployed with the serverless framework: https://serverless.com/ 
 
 ```shell
 serverless deploy
@@ -41,19 +41,19 @@ serverless remove
 ###Testing
 
 Google cloud: 
-* simple https://us-central1-go-fibonacci.cloudfunctions.net/http
-* 256 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
-* 512 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-512
-* 1 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB
-* 2 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-2GB
+* Linear function https://us-central1-go-fibonacci.cloudfunctions.net/http
+* Recursive function, 256 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http
+* Recursive function, 512 MB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-512
+* Recursive function, 1 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-1GB
+* Recursive function, 2 GB https://us-central1-go-fibonacci-recur.cloudfunctions.net/http-2GB
 
 AWS: 
-* simple https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
-* 256 MB https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
-* 512 MB https://0qwlklexf2.execute-api.us-east-1.amazonaws.com/dev/ping
-* 1 GB https://1fd9j85pbj.execute-api.us-east-1.amazonaws.com/dev/ping
-* 2 GB https://l1zp09xozj.execute-api.us-east-1.amazonaws.com/dev/ping
+* Linear function https://g8h74so6w0.execute-api.us-east-1.amazonaws.com/dev/ping
+* Recursive function, 256 MB https://k9kec8cpgc.execute-api.us-east-1.amazonaws.com/dev/ping
+* Recursive function, 512 MB https://0qwlklexf2.execute-api.us-east-1.amazonaws.com/dev/ping
+* Recursive function, 1 GB https://1fd9j85pbj.execute-api.us-east-1.amazonaws.com/dev/ping
+* Recursive function, 2 GB https://l1zp09xozj.execute-api.us-east-1.amazonaws.com/dev/ping
 
 Azure: 
-* https://calfibonacci.azurewebsites.net/api/calcFibonacci
-* https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
+* Linear function https://calfibonacci.azurewebsites.net/api/calcFibonacci
+* Recursive function https://calfibonaccirecur.azurewebsites.net/api/calcFibonacci
