@@ -8,13 +8,9 @@ Each function calculates the fibonacci sequence to 40 places. All functions are 
 
 *Note*: Google cloud is (at time of testing) only available in the central-US region. Azure and AWS functions are hosted in similar US locations to ensure comparable latency when testing.   
 
-Each service can be deployed with the serverless framework: https://serverless.com/ 
+Services are deployed with the serverless framework: https://serverless.com/ 
 
-```shell
-serverless deploy
-```
-
-This creates the necessary resources to support the service and events that are defined in `serverless.yml`.
+The necessary resources to support the service and events are defined in serverless.yml for each function.
 
 ### Invoking and inspecting a function
 
@@ -24,7 +20,7 @@ When the service is deployed, test using the following command:
 serverless invoke -f 
 ```
 
-Additionally, if you'd like to view the logs that a function generates (either via the runtime, or create by your handler by calling `context.log`), you can simply run the following command:
+Additionally, if you'd like to view the logs that a function generates (either via the runtime, or create by your handler by calling context.log), you can simply run the following command:
 
 ```shell
 serverless logs -f <your-servce>
