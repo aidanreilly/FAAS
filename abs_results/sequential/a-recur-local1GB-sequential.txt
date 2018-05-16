@@ -1,0 +1,506 @@
+15/05/2018 22:11:33.22 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   263.437 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5268.730 [ms] (mean)
+Time per request:       5268.730 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   4.4      0      31
+Processing:  4172 5268 207.7   5219    5937
+Waiting:     4172 5268 207.7   5219    5937
+Total:       4203 5269 204.4   5219    5937
+
+Percentage of the requests served within a certain time (ms)
+  50%   5219
+  66%   5281
+  75%   5359
+  80%   5360
+  90%   5422
+  95%   5531
+  98%   5937
+  99%   5937
+ 100%   5937 (longest request)
+15/05/2018 23:33:09.91 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   265.749 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5314.979 [ms] (mean)
+Time per request:       5314.979 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   4.4      0      31
+Processing:  4188 5314 215.5   5281    5969
+Waiting:     4188 5314 215.5   5281    5969
+Total:       4219 5315 212.2   5281    5969
+
+Percentage of the requests served within a certain time (ms)
+  50%   5281
+  66%   5375
+  75%   5406
+  80%   5437
+  90%   5484
+  95%   5531
+  98%   5969
+  99%   5969
+ 100%   5969 (longest request)
+16/05/2018  1:21:51.63 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   268.436 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5368.730 [ms] (mean)
+Time per request:       5368.730 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    2  11.0      0      78
+Processing:  4344 5367 224.0   5391    6219
+Waiting:     4344 5367 224.0   5391    6219
+Total:       4422 5369 216.9   5391    6219
+
+Percentage of the requests served within a certain time (ms)
+  50%   5391
+  66%   5422
+  75%   5437
+  80%   5469
+  90%   5516
+  95%   5687
+  98%   6219
+  99%   6219
+ 100%   6219 (longest request)
+16/05/2018  3:47:08.95 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   268.140 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5362.793 [ms] (mean)
+Time per request:       5362.793 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   6.6      0      47
+Processing:  4484 5362 214.6   5375    6109
+Waiting:     4484 5362 214.6   5375    6109
+Total:       4531 5363 210.7   5375    6109
+
+Percentage of the requests served within a certain time (ms)
+  50%   5375
+  66%   5406
+  75%   5422
+  80%   5453
+  90%   5609
+  95%   5719
+  98%   6109
+  99%   6109
+ 100%   6109 (longest request)
+16/05/2018  5:15:06.63 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   269.140 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5382.792 [ms] (mean)
+Time per request:       5382.792 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   6.6      0      47
+Processing:  4172 5382 237.5   5422    6203
+Waiting:     4172 5382 237.5   5422    6203
+Total:       4219 5383 232.6   5422    6203
+
+Percentage of the requests served within a certain time (ms)
+  50%   5422
+  66%   5437
+  75%   5438
+  80%   5516
+  90%   5594
+  95%   5625
+  98%   6203
+  99%   6203
+ 100%   6203 (longest request)
+16/05/2018  6:39:33.03 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   265.296 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5305.917 [ms] (mean)
+Time per request:       5305.917 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   6.6      0      47
+Processing:  4234 5305 195.8   5297    5969
+Waiting:     4234 5305 195.8   5297    5969
+Total:       4281 5306 190.6   5297    5969
+
+Percentage of the requests served within a certain time (ms)
+  50%   5297
+  66%   5375
+  75%   5391
+  80%   5391
+  90%   5406
+  95%   5422
+  98%   5969
+  99%   5969
+ 100%   5969 (longest request)
+16/05/2018  8:03:51.48 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   265.952 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5319.042 [ms] (mean)
+Time per request:       5319.042 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   4.4      0      31
+Processing:  4219 5318 216.9   5266    5984
+Waiting:     4219 5318 216.9   5266    5984
+Total:       4250 5319 213.7   5266    5984
+
+Percentage of the requests served within a certain time (ms)
+  50%   5266
+  66%   5391
+  75%   5406
+  80%   5422
+  90%   5562
+  95%   5594
+  98%   5984
+  99%   5984
+ 100%   5984 (longest request)
+16/05/2018 10:06:05.31 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   265.968 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5319.354 [ms] (mean)
+Time per request:       5319.354 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   6.6      0      47
+Processing:  4125 5318 216.5   5297    6078
+Waiting:     4125 5318 216.5   5297    6078
+Total:       4172 5319 211.2   5297    6078
+
+Percentage of the requests served within a certain time (ms)
+  50%   5297
+  66%   5328
+  75%   5328
+  80%   5359
+  90%   5437
+  95%   5563
+  98%   6078
+  99%   6078
+ 100%   6078 (longest request)
+16/05/2018 14:24:10.04 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   266.530 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5330.600 [ms] (mean)
+Time per request:       5330.600 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    2  11.0      0      78
+Processing:  4203 5329 231.0   5297    6251
+Waiting:     4203 5329 231.0   5297    6251
+Total:       4281 5331 223.4   5297    6251
+
+Percentage of the requests served within a certain time (ms)
+  50%   5297
+  66%   5312
+  75%   5344
+  80%   5359
+  90%   5437
+  95%   5484
+  98%   6251
+  99%   6251
+ 100%   6251 (longest request)
+16/05/2018 19:13:05.17 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   265.157 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5303.137 [ms] (mean)
+Time per request:       5303.137 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   6.6      0      47
+Processing:  4250 5302 195.2   5281    5953
+Waiting:     4250 5302 195.1   5281    5953
+Total:       4297 5303 190.1   5281    5953
+
+Percentage of the requests served within a certain time (ms)
+  50%   5281
+  66%   5328
+  75%   5391
+  80%   5406
+  90%   5422
+  95%   5500
+  98%   5953
+  99%   5953
+ 100%   5953 (longest request)
+16/05/2018 20:44:01.94 
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 1fd9j85pbj.execute-api.us-east-1.amazonaws.com (be patient).....done
+
+
+Server Software:        
+Server Hostname:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        1fd9j85pbj.execute-api.us-east-1.amazonaws.com
+
+Document Path:          /dev/ping
+Document Length:        99 bytes
+
+Concurrency Level:      1
+Time taken for tests:   265.469 seconds
+Complete requests:      50
+Failed requests:        0
+Keep-Alive requests:    50
+Total transferred:      27650 bytes
+HTML transferred:       4950 bytes
+Requests per second:    0.19 [#/sec] (mean)
+Time per request:       5309.387 [ms] (mean)
+Time per request:       5309.387 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   8.8      0      62
+Processing:  4125 5308 205.1   5297    5984
+Waiting:     4125 5308 205.1   5297    5984
+Total:       4188 5309 197.8   5297    5984
+
+Percentage of the requests served within a certain time (ms)
+  50%   5297
+  66%   5313
+  75%   5328
+  80%   5328
+  90%   5469
+  95%   5516
+  98%   5984
+  99%   5984
+ 100%   5984 (longest request)
